@@ -1,0 +1,26 @@
+def age():
+
+  print "What's your age ?"
+
+  age = raw_input("Type your age and hit 'Enter'.").lower()
+
+  if age > 18 :
+
+   print "Then you are of legal age";
+   
+  elif age < 18 :
+
+    print "Then you are not of legal age";
+
+  elif age == 18 : 
+
+    print "Then you have recently became of legal age";
+
+  else :
+    
+   print "please enter a number !";
+   age()
+    
+age()
+
+  
